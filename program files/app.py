@@ -12,7 +12,7 @@ if __name__ == '__main__':
     root.title("Books management")
     root.geometry("900x600+180+20")
     root.configure(bg="#184769")
-    root.iconbitmap(r'C:\Users\judew\Documents\code projects\python\PYTHONPROJECT\icons\books.ico')
+    root.iconbitmap(r'icons\books.ico')
     root.resizable(False,False)
 
     #binding the escape key with the quit event to close the application when clicked
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     #++++++++++++++++_____DATABASE FUNCTIONS START_____+++++++++++++++++
 
     #global variable pointing to the 
-    path = r'C:\\Users\\judew\\Documents\\code projects\\python\\PYTHONPROJECT\\database\\pacific_lib_database.db'
+    path = 'database/pacific_lib_database.db'
 
 
 
@@ -2045,7 +2045,7 @@ if __name__ == '__main__':
 
 
     #the background for the content window,using pillow to open,resize and convert the image to tkinter's photo image
-    image_path = r"C:\Users\judew\Documents\code projects\python\PYTHONPROJECT\libraryImage.png"
+    image_path = "icons/libraryImage.png"
     bg_image = Image.open(image_path).resize((400,400),Image.LANCZOS)
     converted_image_startup = ImageTk.PhotoImage(bg_image)
     converted_image = ImageTk.PhotoImage(bg_image)
@@ -2231,7 +2231,7 @@ if __name__ == '__main__':
     #-------CONTEXT FRAME START---------------------
 
     #the background for the content window,using pillow to open,resize and convert the image to tkinter's photo image
-    bg_logo_image = Image.open(r"C:\Users\judew\Documents\code projects\python\PYTHONPROJECT\libraryImage.png").resize((80,80),Image.LANCZOS)
+    bg_logo_image = Image.open(r"icons/libraryImage.png").resize((80,80),Image.LANCZOS)
     converted_image = ImageTk.PhotoImage(bg_logo_image)
     
 
