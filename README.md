@@ -1,2 +1,2 @@
 # python library management system
- A hospital management system made using python and MySQL.
+ A library management system made using python and MySQL.
